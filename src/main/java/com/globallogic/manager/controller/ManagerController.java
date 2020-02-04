@@ -53,7 +53,7 @@ public class ManagerController {
 
         return userResponse;
     }
-    
+
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<UserResponse> retriveAllUsers() {
         LOGGER.info("Consuming service retriveAllUsers::::");

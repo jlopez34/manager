@@ -2,24 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb51759-7ae2-4dcf-abf3-114499564139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/PhoneEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/wrapper/ManagerWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/ManagerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/controller/ManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/exception/UserNotFoundExpection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/model/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/model/UserError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/model/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/repository/ManagerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/repository/entity/PhoneEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/repository/entity/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/repository/entity/UserPhoneEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/repository/entity/UserPhoneEntityPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/service/ManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/service/impl/ManagerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/globallogic/manager/wrapper/ManagerWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/manager-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/controller/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/ManagerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/ManagerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/Phone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/ManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/impl/ManagerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +291,7 @@
       <workItem from="1580741419162" duration="12663000" />
       <workItem from="1580818434824" duration="847000" />
       <workItem from="1580819548831" duration="1066000" />
-      <workItem from="1580822874091" duration="11935000" />
+      <workItem from="1580822874091" duration="13369000" />
     </task>
     <servers />
   </component>
@@ -326,25 +337,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="127" width="424" height="506" key="FileChooserDialogImpl/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580823762475" />
-    <state width="1324" height="320" key="GridCell.Tab.0.bottom" timestamp="1580843177102">
+    <state width="1324" height="320" key="GridCell.Tab.0.bottom" timestamp="1580847012335">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.bottom/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="320" key="GridCell.Tab.0.bottom/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580847012335" />
     <state width="1324" height="187" key="GridCell.Tab.0.bottom/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
-    <state width="1324" height="320" key="GridCell.Tab.0.center" timestamp="1580843177102">
+    <state width="1324" height="320" key="GridCell.Tab.0.center" timestamp="1580847012335">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.center/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="320" key="GridCell.Tab.0.center/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580847012335" />
     <state width="1324" height="187" key="GridCell.Tab.0.center/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
-    <state width="1324" height="320" key="GridCell.Tab.0.left" timestamp="1580843177101">
+    <state width="1324" height="320" key="GridCell.Tab.0.left" timestamp="1580847012335">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.left/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177101" />
+    <state width="1324" height="320" key="GridCell.Tab.0.left/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580847012335" />
     <state width="1324" height="187" key="GridCell.Tab.0.left/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
-    <state width="1324" height="320" key="GridCell.Tab.0.right" timestamp="1580843177102">
+    <state width="1324" height="320" key="GridCell.Tab.0.right" timestamp="1580847012335">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.right/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="320" key="GridCell.Tab.0.right/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580847012335" />
     <state width="1324" height="187" key="GridCell.Tab.0.right/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
     <state width="1324" height="320" key="GridCell.Tab.1.bottom" timestamp="1580842813070">
       <screen x="0" y="0" width="1366" height="768" />
