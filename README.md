@@ -8,7 +8,7 @@ Todos los mensajes deben seguir el formato:
 ```bash
 { "mensaje" : "mensaje de error" }
 ```
-#####Registro
+##### Registro
 
 Ese endpoint deberá recibir un usuario con los campos "nombre", "correo", "contraseña", más
 un listado de objetos "teléfono", respetando el siguiente formato:
@@ -48,29 +48,37 @@ El token deberá ser persistido junto con el usuario
 ## Etapas de compilação
 1. Clone repository
 ```bash
-git clone https://github.com/jlopez34/staff-app.git
-cd staff-app
+git clone https://github.com/jlopez34/manager
+cd manager
 ```
-2. Build Angular application
+2. Generate Jar
 ```bash
-cd frontend/frontend-app
-ng build
+cd manager/
+$./gradlew bootJar
 ```
-3. Build backend services
+3. Execute manager-1-0-0.jar
 ```bash
-cd ../../backend
-cd staff-service
-mvn clean package
-
+cd manager/build/libs/
+java -jar manager-1-0-0.jar
 ```
-4. Build and run docker compose
+4. Testing application
 ```bash
-cd ../../
-docker-compose build
-docker-compose up
+open postman
+[POST] http://localhost:8080/users/create 
+[Body]
+{
+"name" : "Juan Rodriguez" ,
+"email" : " juan@rodriguez.org " ,
+"password" : "hunter2" ,
+"phones" : [
+        {
+            "number" : "1234567" ,
+            "citycode" : "1" ,
+            "contrycode" : "57"
+        }
+    ]
+}
 ```
-5. Open browser on http://localhost
-
 ## Pré-requisitos
 - Java 8
 - gradle-6.0.1
