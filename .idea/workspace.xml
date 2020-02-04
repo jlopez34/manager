@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beb51759-7ae2-4dcf-abf3-114499564139" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/PhoneEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneEntityPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/wrapper/ManagerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/model/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/ManagerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/ManagerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/repository/entity/UserPhoneId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/ManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globallogic/manager/service/impl/ManagerServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - DB_USER@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - DB_USER@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="manager" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XIlJ7pGmZrqYl7JaaDmcPueiQP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="b78786fd-e798-4200-a399-b68f2424e387" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="DestinationChooserDialog.Package.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.globallogic.manager" />
+      <recent name="com.globallogic.manager.repository.entity" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.globallogic.manager.repository.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.manager [clean]">
+    <configuration name="manager [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="manager [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="manager [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildNeeded" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="manager [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="manager [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="manager.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.globallogic.manager.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.manager [bootJar]" />
+        <item itemvalue="Gradle.manager [clean]" />
+        <item itemvalue="Gradle.manager [buildNeeded]" />
+        <item itemvalue="Gradle.manager [buildDependents]" />
+        <item itemvalue="Gradle.manager [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - DB_USER@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - DB_USER@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31fa3364" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb51759-7ae2-4dcf-abf3-114499564139" name="Default Changelist" comment="" />
+      <created>1580741414811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580741414811</updated>
+      <workItem from="1580741419162" duration="12663000" />
+      <workItem from="1580818434824" duration="847000" />
+      <workItem from="1580819548831" duration="1066000" />
+      <workItem from="1580822874091" duration="11935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="44" width="800" height="672" key="#Assign_Data_Sources" timestamp="1580756372952">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="44" width="800" height="672" key="#Assign_Data_Sources/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580756372952" />
+    <state x="278" y="24" width="800" height="672" key="#SQL_Dialects" timestamp="1580743731096">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="24" key="#SQL_Dialects/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580743731096" />
+    <state x="379" y="792" width="800" height="672" key="#SQL_Dialects/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742702769" />
+    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580823252367">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580823252367" />
+    <state x="379" y="792" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742739986" />
+    <state x="491" y="70" width="488" height="621" key="#com.intellij.ide.util.MemberChooser" timestamp="1580841671886">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="491" y="70" width="488" height="621" key="#com.intellij.ide.util.MemberChooser/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580841671886" />
+    <state x="410" y="160" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1580824132867">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="410" y="160" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580824132867" />
+    <state x="356" y="0" width="925" height="763" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1580824173203">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="356" y="0" width="925" height="763" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580824173203" />
+    <state x="356" y="186" width="643" height="389" key="#com.intellij.jpa.generation.ui.ImportMappingsDialog" timestamp="1580823764356">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="356" y="186" width="643" height="389" key="#com.intellij.jpa.generation.ui.ImportMappingsDialog/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580823764356" />
+    <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580824242347">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580824242347" />
+    <state x="466" y="127" width="424" height="506" key="FileChooserDialogImpl" timestamp="1580823762475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="127" width="424" height="506" key="FileChooserDialogImpl/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580823762475" />
+    <state width="1324" height="320" key="GridCell.Tab.0.bottom" timestamp="1580843177102">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.0.bottom/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.0.center" timestamp="1580843177102">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.0.center/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="187" key="GridCell.Tab.0.center/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.0.left" timestamp="1580843177101">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.0.left/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177101" />
+    <state width="1324" height="187" key="GridCell.Tab.0.left/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.0.right" timestamp="1580843177102">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.0.right/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580843177102" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.1.bottom" timestamp="1580842813070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.1.bottom/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580842813070" />
+    <state width="1324" height="187" key="GridCell.Tab.1.bottom/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.1.center" timestamp="1580842813070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.1.center/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580842813070" />
+    <state width="1324" height="187" key="GridCell.Tab.1.center/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.1.left" timestamp="1580842813070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.1.left/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580842813070" />
+    <state width="1324" height="187" key="GridCell.Tab.1.left/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="1324" height="320" key="GridCell.Tab.1.right" timestamp="1580842813070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="320" key="GridCell.Tab.1.right/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580842813070" />
+    <state width="1324" height="187" key="GridCell.Tab.1.right/101.768.1366.768/0.0.1366.768@101.768.1366.768" timestamp="1580742968445" />
+    <state width="222" height="457" key="HiddenNamespacesPopup" timestamp="1580823260960">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="222" height="457" key="HiddenNamespacesPopup/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580823260960" />
+    <state x="187" y="18" key="SettingsEditor" timestamp="1580844437513">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="18" key="SettingsEditor/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580844437513" />
+    <state x="359" y="119" width="647" height="528" key="find.popup" timestamp="1580825783449">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="359" y="119" width="647" height="528" key="find.popup/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580825783449" />
+    <state x="99" y="88" width="1157" height="585" key="new project wizard" timestamp="1580844391059">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="99" y="88" width="1157" height="585" key="new project wizard/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580844391059" />
+    <state x="332" y="104" width="700" height="530" key="recent.locations.popup" timestamp="1580752008177">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="332" y="104" width="700" height="530" key="recent.locations.popup/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580752008177" />
+    <state x="347" y="170" key="run.anything.popup" timestamp="1580830433285">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="170" key="run.anything.popup/101.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1580830433285" />
+  </component>
+</project>
