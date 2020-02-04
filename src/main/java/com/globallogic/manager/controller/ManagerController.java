@@ -30,7 +30,7 @@ public class ManagerController {
     }
 
 
-    @RequestMapping(value = "/users/", method = RequestMethod.POST)
+    @RequestMapping(value = "/create/", method = RequestMethod.POST)
     public ResponseEntity<?> createUser(@Valid @RequestBody User user)
             throws URISyntaxException {
         LOGGER.info("Consuming service createUser::::" + user.toString());
@@ -43,7 +43,7 @@ public class ManagerController {
 
 
     @RequestMapping(value = "/get-user/{id}", method = RequestMethod.GET)
-    public UserResponse retrivePerson(@PathVariable("id") String userId) {
+    public UserResponse retriveUser(@PathVariable("id") String userId) {
         LOGGER.info("Consuming service retriveUser:::: User [" + userId + "]");
         UserResponse userResponse = service.getUserById(userId);
 
@@ -53,25 +53,7 @@ public class ManagerController {
 
         return userResponse;
     }
-
-    /*@RequestMapping(value = "/update/{id}", method = RequestMethod.PUT)
-    public ResponseEntity<?> updatePerson(@RequestBody User user, @PathVariable("id") String personId)
-            throws URISyntaxException {
-        LOGGER.info("Consuming service updatePerson:::: Person [" + personId + "]");
-        User updatedUser = service.updatePerson(personId, user);
-
-        Optional<User> personOptional = Optional.ofNullable(updatedUser);
-
-        personOptional.orElseThrow(() -> new UserNotFoundExpection(personId));
-
-        Resource<User> resource = assembler.toResource(updatedUser);
-
-        return ResponseEntity
-                .created(new URI(resource.getId().expand().getHref()))
-                .body(resource);
-    }*/
-
-
+    
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<UserResponse> retriveAllUsers() {
         LOGGER.info("Consuming service retriveAllUsers::::");
@@ -79,11 +61,4 @@ public class ManagerController {
         return new ArrayList<>(service.getAllUsers());
     }
 
-   /* @RequestMapping(value = "/remove/{id}", method = RequestMethod.DELETE)
-    ResponseEntity<?> deletePerson(@PathVariable String id) {
-        LOGGER.info("Consuming service deletePerson::::");
-        service.removePerson(id);
-
-        return ResponseEntity.noContent().build();
-    }*/
 }
